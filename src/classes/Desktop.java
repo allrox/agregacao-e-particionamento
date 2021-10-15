@@ -45,9 +45,9 @@ public class Desktop {
 		System.out.println("Informações do Desktop");
 		System.out.println("-----------------------------------------");
 		System.out.println("Modelo:\t");
-		this.setModelo(scan.nextLine());
+		setModelo(scan.nextLine());
 		System.out.println("Ano:\t");
-		this.setAno(Integer.parseInt(scan.next()));
+		setAno(Integer.parseInt(scan.next()));
 	}
 	
 		
