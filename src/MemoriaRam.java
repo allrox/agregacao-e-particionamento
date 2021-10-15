@@ -47,6 +47,7 @@ public class MemoriaRam {
 	
 	public void imprimirMemoriaRam() {
 		System.out.println("\nInformações da Memória RAM");
+		System.out.println("-----------------------------------------");		
 		System.out.println("Modelo:\t\t\t" + this.getModelo());
 		System.out.println("Preço:\t\t\tR$ " + this.getPreco());
 	}	

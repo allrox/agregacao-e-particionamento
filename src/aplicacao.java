@@ -22,7 +22,7 @@ public class aplicacao {
 		 */
 		System.out.println("\n-----------------------------------------");
 		System.out.println("Confira as especificações do equipamento:");
-		System.out.println("-----------------------------------------");
+		System.out.println("-----------------------------------------\n");
 		placaMae.imprimirPlacaMae();
 		memoria.imprimirMemoriaRam();
 		
