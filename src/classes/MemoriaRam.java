@@ -41,16 +41,16 @@ public class MemoriaRam {
 		System.out.println("\nInformações da Memória RAM");
 		System.out.println("-----------------------------------------");
 		System.out.println("Descrição: ");
-		this.setModelo(scan.nextLine());
+		setModelo(scan.nextLine());
 		System.out.println("Preço: ");
-		this.setPreco(Double.parseDouble(scan.next()));
+		setPreco(Double.parseDouble(scan.next()));
 	}
 	
 	public void imprimirMemoriaRam() {
 		System.out.println("\nInformações da Memória RAM");
 		System.out.println("-----------------------------------------");		
-		System.out.println("Modelo:\t\t\t" + this.getModelo());
-		System.out.println("Preço:\t\t\tR$ " + this.getPreco());
+		System.out.println("Modelo:\t\t\t" + getModelo());
+		System.out.println("Preço:\t\t\tR$ " + getPreco());
 	}	
 	
 	

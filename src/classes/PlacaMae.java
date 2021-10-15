@@ -70,22 +70,22 @@ public class PlacaMae {
 		System.out.println("\nInformações da Placa-Mãe");
 		System.out.println("-----------------------------------------");
 		System.out.println("Modelo: ");
-		this.setModelo(scan.nextLine());
+		setModelo(scan.nextLine());
 		System.out.println("Fabricante: ");
-		this.setFabricante(scan.nextLine());
+		setFabricante(scan.nextLine());
 		System.out.println("Ano de Fabricação: ");
-		this.setAno(Integer.parseInt(scan.next()));
+		setAno(Integer.parseInt(scan.next()));
 		System.out.println("Preço: ");
-		this.setPreco(Double.parseDouble(scan.next()));
+		setPreco(Double.parseDouble(scan.next()));
 	}
 	
 	public void imprimirPlacaMae() {
 		System.out.println("\nInformações da Placa-Mãe");
 		System.out.println("-----------------------------------------");
-		System.out.println("Modelo:\t\t\t" + this.getModelo());
-		System.out.println("Fabricante:\t\t" + this.getFabricante());
-		System.out.println("Ano de Fabricação:\t" + this.getAno());
-		System.out.println("Preço:\t\t\tR$ " + this.getPreco());
+		System.out.println("Modelo:\t\t\t" + getModelo());
+		System.out.println("Fabricante:\t\t" + getFabricante());
+		System.out.println("Ano de Fabricação:\t" + getAno());
+		System.out.println("Preço:\t\t\tR$ " + getPreco());
 	}
 	
 	
